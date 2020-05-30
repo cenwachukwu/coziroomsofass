@@ -1,12 +1,13 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import { Router, Link } from '@reach/router';
+import './App.scss';
+import Navbar from './components/navbar/navbar';
 
 function App() {
   return (
-    <div className="App">
-      <h1>Room sofas</h1>
-    </div>
+    <React.StrictMode>
+      <Navbar />
+    </React.StrictMode>
   );
 }
 
