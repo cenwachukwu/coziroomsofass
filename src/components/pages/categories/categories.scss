@@ -22,7 +22,7 @@
   }
 }
 
-@media only screen and (max-width: 1219px) {
+@media only screen and (max-width: 1440px) {
   .Categories {
     .CategoriesPageContainer {
       grid-template-columns: repeat(3, 1fr);
@@ -33,12 +33,23 @@
   }
 }
 
-@media only screen and (max-width: 895px) {
+@media only screen and (max-width: 1195px) {
   .Categories {
     .CategoriesPageContainer {
       grid-template-columns: repeat(2, 1fr);
       .CategoriesPack {
         width: 100%;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .Categories {
+    .CategoriesPageContainer {
+      grid-template-columns: repeat(1, 1fr);
+      .CategoriesPack {
+        width: 90%;
       }
     }
   }
