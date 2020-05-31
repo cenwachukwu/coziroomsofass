@@ -16,7 +16,10 @@
     "redux": "^4.0.5",
     "redux-thunk": "^2.3.0",
     "sass": "^1.26.5",
-    "jquery": "^3.5.1"
+    "jquery": "^3.5.1",
+    "@emotion/core": "^10.0.10",
+    "@emotion/styled": "^10.0.12",
+    "react-toggle-switch": "^3.0.4"
   },
   "devDependencies": {
     "prettier": "^2.0.4",
