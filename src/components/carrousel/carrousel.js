@@ -5,10 +5,10 @@ import Slider from './slider';
 
 // images
 
-import loveseat from './carrouselImg/loveseat.jpg';
-import recliner from './carrouselImg/recliner.jpg';
-import sectional from './carrouselImg/sectional.jpg';
-import sofa from './carrouselImg/sofa.jpg';
+import loveseat from '../../utils/carrouselImg/loveseat.jpg';
+import recliner from '../../utils/carrouselImg/recliner.jpg';
+import sectional from '../../utils/carrouselImg/sectional.jpg';
+import sofa from '../../utils/carrouselImg/sofa.jpg';
 
 // import images from './image';
 
