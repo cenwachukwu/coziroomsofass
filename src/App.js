@@ -4,6 +4,7 @@ import './App.scss';
 import Navbar from './components/navbar/navbar';
 import CategoryNav from './components/categoryNav/categoryNav';
 import Container from './components/mobileNav/container/container';
+import Footer from './components/footer/footer';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <Navbar />
       <CategoryNav />
       <Container />
+      <Footer />
     </React.StrictMode>
   );
 }
