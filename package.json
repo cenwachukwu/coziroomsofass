@@ -19,7 +19,8 @@
     "jquery": "^3.5.1",
     "@emotion/core": "^10.0.10",
     "@emotion/styled": "^10.0.12",
-    "react-toggle-switch": "^3.0.4"
+    "react-toggle-switch": "^3.0.4",
+    "js-cookie": "^2.2.1"
   },
   "devDependencies": {
     "prettier": "^2.0.4",

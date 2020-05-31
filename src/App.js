@@ -9,7 +9,7 @@ import Home from './components/pages/homePage';
 
 function App() {
   return (
-    <React.StrictMode>
+    <div>
       <Navbar />
       <CategoryNav />
       <Container />
@@ -17,7 +17,7 @@ function App() {
         <Home path="/" exact component={Home} />
       </Router>
       <Footer />
-    </React.StrictMode>
+    </div>
   );
 }
 
