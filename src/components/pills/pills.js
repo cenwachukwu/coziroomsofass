@@ -6,11 +6,9 @@ const Pills = (props) => {
   // console.log(props.props);
   return (
     <div className="Pills">
-      <div className="pillImage">
-        <Link to={props.link}>
-          <img src={props.props} />
-        </Link>
-      </div>
+      <Link to={props.link}>
+        <img src={props.props} />
+      </Link>
 
       <div className="pillLink">
         <Link to={props.link}>{props.categoryName}</Link>
