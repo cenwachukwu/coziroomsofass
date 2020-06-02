@@ -16,11 +16,11 @@ const Container = (props) => {
         </div>
 
         <div className="navbarUserLinks">
-          <div className="navbarUserCart">
+          {/* <div className="navbarUserCart">
             <Link to="/signin">
               <i className="far fa-user"></i>
             </Link>
-          </div>
+          </div> */}
 
           <div className="navbarUserCart">
             <Link to="/cart">

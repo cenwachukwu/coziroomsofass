@@ -15,6 +15,8 @@ import 'bootstrap';
 import { Provider, useSelector, useDispatch } from 'react-redux';
 import store from './reduxStore';
 import { listProducts } from './actions/productActions';
+import ProductInfo from './components/productInfo/productInfo';
+import ProductPage from './components/pages/product';
 
 function App() {
   const productList = useSelector((state) => state.productList);
@@ -44,6 +46,13 @@ function App() {
         <Categories
           path="/:category"
           component={Categories}
+          ProductData={products.data}
+          loading={loading}
+          error={error}
+        />
+        <ProductPage
+          path="/product/*"
+          component={ProductPage}
           ProductData={products.data}
           loading={loading}
           error={error}
