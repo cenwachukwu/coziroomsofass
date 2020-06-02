@@ -8,6 +8,9 @@ import Footer from './components/footer/footer';
 import Home from './components/pages/homePage';
 import Categories from './components/pages/categories/categories';
 
+//bootstrap
+// import 'bootstrap';
+
 // redux
 import { Provider, useSelector, useDispatch } from 'react-redux';
 import store from './reduxStore';

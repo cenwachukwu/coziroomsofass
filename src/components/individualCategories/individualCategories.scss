@@ -43,14 +43,35 @@
   }
 }
 
-@media only screen and (max-width: 789px) {
+@media only screen and (max-width: 1440px) {
   .IndividualCategory {
+    .categoryImage {
+      a {
+        img {
+          width: 100%;
+          // height: 100%;
+          height: 15rem;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 946px) {
+  .IndividualCategory {
+    .categoryImage {
+      a {
+        img {
+          height: 12rem;
+        }
+      }
+    }
     .categoryName {
       a {
         h1 {
-          font-size: 1.5rem;
+          font-size: 1.3rem;
           span {
-            font-size: 1.3rem;
+            font-size: 1.1rem;
           }
         }
       }
@@ -73,6 +94,18 @@
     .categoryPrice {
       a {
         font-size: 0.8rem;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 584px) {
+  .IndividualCategory {
+    .categoryImage {
+      a {
+        img {
+          height: 12rem;
+        }
       }
     }
   }
