@@ -132,6 +132,31 @@
   }
 }
 
+@media only screen and (max-width: 1676px) {
+  .ProductInfo {
+    .ProductInfoContainerHolder {
+      .ProductInfoContainer {
+        .ProductImages {
+          width: 80%;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 1440) {
+  .ProductInfo {
+    .ProductInfoContainerHolder {
+      .ProductInfoContainer {
+        .ProductImages {
+          margin: 0;
+          width: 100%;
+        }
+      }
+    }
+  }
+}
+
 @media only screen and (max-width: 1195px) {
   .ProductInfo {
     .ProductInfoContainerHolder {
